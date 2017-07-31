@@ -38,5 +38,5 @@
   <string name="finished">Befejezve</string>
   <string name="settings">Beállitások</string>
   <string name="done">Kész</string>
-  <string name="delete_confirm">Biztos, hogy törölni akarod ezt a fájlt?</string>
+  <string name="delete_confirm">Biztos, hogy törölni akarja ezt a fájlt?</string>
 </resources>

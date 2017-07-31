@@ -25,18 +25,18 @@
   <string name="delete">Hapus</string>
   <string name="back">Kembali</string>
   <string name="help">Bantuan</string>
-  <string name="loading">Menunggu&#8230;</string>
+  <string name="loading">Memuat&#8230;</string>
   <string name="filename_separator">-</string>
   <string name="download">Unduh</string>
   <string name="install">Pasang</string>
   <string name="downloading">Mengunduh&#8230;</string>
   <string name="rebooting">Memulai ulang&#8230;</string>
   <string name="information">Informasi</string>
-  <string name="update_available">Pembaruan ROM Tersedia</string>
+  <string name="update_available">Pembaruan ROM tersedia</string>
   <string name="ignore">Abaikan</string>
   <string name="donate">Donasi</string>
   <string name="finished">Selesai</string>
-  <string name="settings">Pengaturan</string>
+  <string name="settings">Setelan</string>
   <string name="done">Selesai</string>
-  <string name="delete_confirm">Apakah anda yakin ingin menghapus file ini?</string>
+  <string name="delete_confirm">Apakah anda yakin ingin menghapus berkas ini?</string>
 </resources>
