@@ -24,19 +24,19 @@
   <string name="ok">OK</string>
   <string name="delete">刪除</string>
   <string name="back">返回</string>
-  <string name="help">幫助</string>
-  <string name="loading">正在下載&#8230;</string>
+  <string name="help">說明</string>
+  <string name="loading">載入中&#8230;</string>
   <string name="filename_separator">-</string>
   <string name="download">下載</string>
   <string name="install">安裝</string>
-  <string name="downloading">正在安裝&#8230;</string>
-  <string name="rebooting">重新啟動&#8230;</string>
+  <string name="downloading">下載中&#8230;</string>
+  <string name="rebooting">重新啟動中&#8230;</string>
   <string name="information">資訊</string>
-  <string name="update_available">ROM可用更新</string>
+  <string name="update_available">ROM 有可用更新</string>
   <string name="ignore">忽略</string>
   <string name="donate">贊助</string>
   <string name="finished">完成</string>
   <string name="settings">設定</string>
   <string name="done">完成</string>
-  <string name="delete_confirm">您確定要刪除這個文件嗎？</string>
+  <string name="delete_confirm">您確定要刪除此檔案嗎？</string>
 </resources>

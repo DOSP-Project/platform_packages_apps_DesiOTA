@@ -20,5 +20,23 @@
   <!-- DO NOT TRANSLATE THE ITEMS MARKED "translatable="false" -->
   <!-- App Strings -->
   <!-- Generic strings -->
+  <string name="cancel">Anulaţi</string>
   <string name="ok">OK</string>
+  <string name="delete">Ștergeţi</string>
+  <string name="back">Înapoi</string>
+  <string name="help">Ajutor</string>
+  <string name="loading">Încărcare&#8230;</string>
+  <string name="filename_separator">-</string>
+  <string name="download">Descărcare</string>
+  <string name="install">Instalare</string>
+  <string name="downloading">Descărcare&#8230;</string>
+  <string name="rebooting">Repornire&#8230;</string>
+  <string name="information">Informații</string>
+  <string name="update_available">Actualizare disponibilă</string>
+  <string name="ignore">Ignoraţi</string>
+  <string name="donate">Donați</string>
+  <string name="finished">Finalizat</string>
+  <string name="settings">Setări</string>
+  <string name="done">Efectuat</string>
+  <string name="delete_confirm">Sunteți sigur că vreți să ștergeți fișierul?</string>
 </resources>
