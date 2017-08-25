@@ -20,4 +20,23 @@
   <!-- DO NOT TRANSLATE THE ITEMS MARKED "translatable="false" -->
   <!-- App Strings -->
   <!-- Generic strings -->
+  <string name="cancel">Скасаваць</string>
+  <string name="ok">ОК</string>
+  <string name="delete">Выдаліць</string>
+  <string name="back">Назад</string>
+  <string name="help">Дапамога</string>
+  <string name="loading">Загрузка&#8230;</string>
+  <string name="filename_separator">-</string>
+  <string name="download">Спампаваць</string>
+  <string name="install">Усталяваць</string>
+  <string name="downloading">Загрузка&#8230;</string>
+  <string name="rebooting">Перазагрузка&#8230;</string>
+  <string name="information">Інфармацыя</string>
+  <string name="update_available">Даступна новая версія</string>
+  <string name="ignore">Ігнараваць</string>
+  <string name="donate">Ахвяраваць</string>
+  <string name="finished">Завершана</string>
+  <string name="settings">Налады</string>
+  <string name="done">Гатова</string>
+  <string name="delete_confirm">Сапраўды жадаеце выдаліць гэтыя файлы?</string>
 </resources>

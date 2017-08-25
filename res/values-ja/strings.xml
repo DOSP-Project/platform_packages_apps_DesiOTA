@@ -20,5 +20,11 @@
   <!-- DO NOT TRANSLATE THE ITEMS MARKED "translatable="false" -->
   <!-- App Strings -->
   <!-- Generic strings -->
+  <string name="cancel">キャンセル</string>
   <string name="ok">はい</string>
+  <string name="delete">削除</string>
+  <string name="back">戻る</string>
+  <string name="help">ヘルプ</string>
+  <string name="settings">設定</string>
+  <string name="done">完了</string>
 </resources>
