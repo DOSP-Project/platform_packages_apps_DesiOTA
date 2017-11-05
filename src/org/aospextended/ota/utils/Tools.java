@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.ota.utils;
+package org.dosp.ota.utils;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
