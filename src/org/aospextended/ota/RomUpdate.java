@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.ota;
+package org.dosp.ota;
 
 
 import java.io.File;
@@ -22,7 +22,7 @@ import java.io.File;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import org.aospextended.ota.utils.Constants;
+import org.dosp.ota.utils.Constants;
 
 public class RomUpdate implements Constants {
     
