@@ -1,4 +1,4 @@
-package org.aospextended.ota.activities;
+package org.dosp.ota.activities;
 
 import in.uncod.android.bypass.Bypass;
 
@@ -36,14 +36,14 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toolbar;
 
-import org.aospextended.ota.Addon;
-import org.aospextended.ota.R;
-import org.aospextended.ota.RomUpdate;
-import org.aospextended.ota.download.DownloadAddon;
-import org.aospextended.ota.tasks.AddonXmlParser;
-import org.aospextended.ota.utils.Constants;
-import org.aospextended.ota.utils.Preferences;
-import org.aospextended.ota.utils.Utils;
+import org.dosp.ota.Addon;
+import org.dosp.ota.R;
+import org.dosp.ota.RomUpdate;
+import org.dosp.ota.download.DownloadAddon;
+import org.dosp.ota.tasks.AddonXmlParser;
+import org.dosp.ota.utils.Constants;
+import org.dosp.ota.utils.Preferences;
+import org.dosp.ota.utils.Utils;
 
 public class AddonActivity extends Activity implements Constants {
 
