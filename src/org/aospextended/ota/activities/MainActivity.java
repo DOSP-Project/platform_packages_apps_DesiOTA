@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.ota.activities;
+package org.dosp.ota.activities;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -50,13 +50,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toolbar;
 
-import org.aospextended.ota.R;
-import org.aospextended.ota.RomUpdate;
-import org.aospextended.ota.tasks.Changelog;
-import org.aospextended.ota.tasks.LoadUpdateManifest;
-import org.aospextended.ota.utils.Constants;
-import org.aospextended.ota.utils.Preferences;
-import org.aospextended.ota.utils.Utils;
+import org.dosp.ota.R;
+import org.dosp.ota.RomUpdate;
+import org.dosp.ota.tasks.Changelog;
+import org.dosp.ota.tasks.LoadUpdateManifest;
+import org.dosp.ota.utils.Constants;
+import org.dosp.ota.utils.Preferences;
+import org.dosp.ota.utils.Utils;
 
 public class MainActivity extends Activity implements Constants{
 
