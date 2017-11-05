@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.ota.activities;
+package org.dosp.ota.activities;
 
 import java.io.File;
 
@@ -42,11 +42,11 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.SparseBooleanArray;
 
-import org.aospextended.ota.R;
-import org.aospextended.ota.utils.Constants;
-import org.aospextended.ota.utils.Preferences;
-import org.aospextended.ota.utils.Tools;
-import org.aospextended.ota.utils.Utils;
+import org.dosp.ota.R;
+import org.dosp.ota.utils.Constants;
+import org.dosp.ota.utils.Preferences;
+import org.dosp.ota.utils.Tools;
+import org.dosp.ota.utils.Utils;
 
 @SuppressLint("SdCardPath")
 @SuppressWarnings("deprecation")
