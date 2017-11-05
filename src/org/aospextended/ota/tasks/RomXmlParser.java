@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.ota.tasks;
+package org.dosp.ota.tasks;
 
 import java.io.File;
 import java.io.IOException;
@@ -32,9 +32,9 @@ import org.xml.sax.helpers.DefaultHandler;
 import android.content.Context;
 import android.util.Log;
 
-import org.aospextended.ota.RomUpdate;
-import org.aospextended.ota.utils.Constants;
-import org.aospextended.ota.utils.Utils;
+import org.dosp.ota.RomUpdate;
+import org.dosp.ota.utils.Constants;
+import org.dosp.ota.utils.Utils;
 
 public class RomXmlParser extends DefaultHandler implements Constants {
 
@@ -313,4 +313,3 @@ public class RomXmlParser extends DefaultHandler implements Constants {
 		
 	}
 }
-
