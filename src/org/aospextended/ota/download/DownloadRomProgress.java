@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.ota.download;
+package org.dosp.ota.download;
 
 import android.app.Activity;
 import android.app.DownloadManager;
@@ -24,10 +24,10 @@ import android.database.CursorIndexOutOfBoundsException;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import org.aospextended.ota.activities.AvailableActivity;
-import org.aospextended.ota.activities.MainActivity;
-import org.aospextended.ota.utils.Constants;
-import org.aospextended.ota.utils.Preferences;
+import org.dosp.ota.activities.AvailableActivity;
+import org.dosp.ota.activities.MainActivity;
+import org.dosp.ota.utils.Constants;
+import org.dosp.ota.utils.Preferences;
 
 public class DownloadRomProgress  extends AsyncTask<Long, Integer, Void> implements Constants {
 	
