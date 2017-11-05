@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.aospextended.ota.utils;
+package org.dosp.ota.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
-import org.aospextended.ota.R;
+import org.dosp.ota.R;
 
 public class Preferences implements Constants{
 
 	public static final String TAG = "Preferences";
 
-	public static String PREF_NAME = "AEXOTASettings";
+	public static String PREF_NAME = "DesiOTASettings";
 
 	private Preferences() {
 	}
