@@ -1,13 +1,13 @@
-package org.aospextended.ota.download;
+package org.dosp.ota.download;
 
 import android.app.DownloadManager;
 import android.content.Context;
 import android.net.Uri;
 import android.util.Log;
 
-import org.aospextended.ota.AEXOTA;
-import org.aospextended.ota.utils.Constants;
-import org.aospextended.ota.utils.Preferences;
+import org.dosp.ota.DesiOTA;
+import org.dosp.ota.utils.Constants;
+import org.dosp.ota.utils.Preferences;
 
 public class DownloadAddon implements Constants {
 
@@ -35,7 +35,7 @@ public class DownloadAddon implements Constants {
 		
 		DownloadManager downloadManager = (DownloadManager) context.getSystemService(Context.DOWNLOAD_SERVICE);
 		long mDownloadID = downloadManager.enqueue(request);
-		AEXOTA.putAddonDownload(index, mDownloadID);
+		DesiOTA.putAddonDownload(index, mDownloadID);
 		new DownloadAddonProgress(context, downloadManager, index).execute(mDownloadID);
 		if (DEBUGGING) {
 			Log.d(TAG, "Starting download with manager ID " + mDownloadID + " and item id of " + id);
@@ -43,7 +43,7 @@ public class DownloadAddon implements Constants {
 	}
 	
 	public void cancelDownload(Context context, int index) {
-		long mDownloadID = AEXOTA.getAddonDownload(index);
+		long mDownloadID = DesiOTA.getAddonDownload(index);
 		if (DEBUGGING) {
 			Log.d(TAG, "Stopping download with manager ID " + mDownloadID + " and item index of " + index);
 		}
