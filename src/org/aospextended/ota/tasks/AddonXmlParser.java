@@ -1,4 +1,4 @@
-package org.aospextended.ota.tasks;
+package org.dosp.ota.tasks;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -10,8 +10,8 @@ import org.xml.sax.helpers.DefaultHandler;
 
 import android.util.Log;
 
-import org.aospextended.ota.Addon;
-import org.aospextended.ota.utils.Constants;
+import org.dosp.ota.Addon;
+import org.dosp.ota.utils.Constants;
 
 public class AddonXmlParser extends DefaultHandler implements Constants {
 
