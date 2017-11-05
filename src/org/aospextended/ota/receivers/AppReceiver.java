@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.ota.receivers;
+package org.dosp.ota.receivers;
 
 import java.util.Iterator;
 import java.util.Set;
@@ -32,15 +32,15 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationCompat.Builder;
 import android.util.Log;
 
-import org.aospextended.ota.AEXOTA;
-import org.aospextended.ota.R;
-import org.aospextended.ota.RomUpdate;
-import org.aospextended.ota.activities.AddonActivity;
-import org.aospextended.ota.activities.AvailableActivity;
-import org.aospextended.ota.tasks.LoadUpdateManifest;
-import org.aospextended.ota.utils.Constants;
-import org.aospextended.ota.utils.Preferences;
-import org.aospextended.ota.utils.Utils;
+import org.dosp.ota.DesiOTA;
+import org.dosp.ota.R;
+import org.dosp.ota.RomUpdate;
+import org.dosp.ota.activities.AddonActivity;
+import org.dosp.ota.activities.AvailableActivity;
+import org.dosp.ota.tasks.LoadUpdateManifest;
+import org.dosp.ota.utils.Constants;
+import org.dosp.ota.utils.Preferences;
+import org.dosp.ota.utils.Utils;
 
 public class AppReceiver extends BroadcastReceiver implements Constants{
 
@@ -57,12 +57,12 @@ public class AppReceiver extends BroadcastReceiver implements Constants{
 			boolean isAddonDownload = false;
 			int keyForAddonDownload = 0;
 
-			Set<Integer> set = AEXOTA.getAddonDownloadKeySet();
+			Set<Integer> set = DesiOTA.getAddonDownloadKeySet();
 			Iterator<Integer> iterator = set.iterator();
 
 			while (iterator.hasNext() && isAddonDownload != true) {
 				int nextValue = iterator.next();
-				if (id == AEXOTA.getAddonDownload(nextValue)) {
+				if (id == DesiOTA.getAddonDownload(nextValue)) {
 					isAddonDownload = true;
 					keyForAddonDownload = nextValue;
 					if (DEBUGGING) {
@@ -89,7 +89,7 @@ public class AppReceiver extends BroadcastReceiver implements Constants{
 					if (DEBUGGING)
 						Log.w(TAG, "Download Failed");
 					Log.d(TAG, "Removing Addon download with id " + keyForAddonDownload);
-					AEXOTA.removeAddonDownload(keyForAddonDownload);
+					DesiOTA.removeAddonDownload(keyForAddonDownload);
 					AddonActivity.AddonsArrayAdapter.updateProgress(keyForAddonDownload, 0, true);
 					AddonActivity.AddonsArrayAdapter.updateButtons(keyForAddonDownload, false);
 					return;
@@ -97,7 +97,7 @@ public class AppReceiver extends BroadcastReceiver implements Constants{
 					if (DEBUGGING)
 						Log.v(TAG, "Download Succeeded");
 					Log.d(TAG, "Removing Addon download with id " + keyForAddonDownload);
-					AEXOTA.removeAddonDownload(keyForAddonDownload);
+					DesiOTA.removeAddonDownload(keyForAddonDownload);
 					AddonActivity.AddonsArrayAdapter.updateButtons(keyForAddonDownload, true);
 					return;
 				}
