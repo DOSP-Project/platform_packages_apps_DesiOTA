@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.ota.tasks;
+package org.dosp.ota.tasks;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -29,9 +29,9 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import org.aospextended.ota.R;
-import org.aospextended.ota.utils.Constants;
-import org.aospextended.ota.utils.Utils;
+import org.dosp.ota.R;
+import org.dosp.ota.utils.Constants;
+import org.dosp.ota.utils.Utils;
 
 public  class LoadUpdateManifest extends AsyncTask<Void, Void, Void> implements Constants {
     
