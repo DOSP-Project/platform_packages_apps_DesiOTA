@@ -1,4 +1,4 @@
-package org.aospextended.ota;
+package org.dosp.ota;
 
 public class Addon {
 	
