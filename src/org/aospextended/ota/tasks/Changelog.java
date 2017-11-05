@@ -1,4 +1,4 @@
-package org.aospextended.ota.tasks;
+package org.dosp.ota.tasks;
 
 import in.uncod.android.bypass.Bypass;
 
@@ -22,7 +22,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import org.aospextended.ota.R;
+import org.dosp.ota.R;
 
 public class Changelog extends AsyncTask<Void, Void, String> {
 
