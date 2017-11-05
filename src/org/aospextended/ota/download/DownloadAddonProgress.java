@@ -1,7 +1,7 @@
-package org.aospextended.ota.download;
+package org.dosp.ota.download;
 
-import org.aospextended.ota.activities.AddonActivity;
-import org.aospextended.ota.utils.Constants;
+import org.dosp.ota.activities.AddonActivity;
+import org.dosp.ota.utils.Constants;
 import android.app.DownloadManager;
 import android.content.Context;
 import android.database.Cursor;
