@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.ota.utils;
+package org.dosp.ota.utils;
 
 import android.os.Environment;
 
@@ -32,7 +32,7 @@ public interface Constants {
 	
 	// Storage
 	public static final String SD_CARD 									= Environment.getExternalStorageDirectory().getAbsolutePath();
-	public static final String OTA_DOWNLOAD_DIR 						= Utils.doesPropExist(OTA_DOWNLOAD_LOC) ? Utils.getProp(OTA_DOWNLOAD_LOC) : "AEXOTA";
+	public static final String OTA_DOWNLOAD_DIR 						= Utils.doesPropExist(OTA_DOWNLOAD_LOC) ? Utils.getProp(OTA_DOWNLOAD_LOC) : "DesiOTA";
 	public static final String INSTALL_AFTER_FLASH_DIR 					= "InstallAfterFlash";
 
 	// Networks
@@ -78,3 +78,4 @@ public interface Constants {
 	//Notification
 	public static final int NOTIFICATION_ID 							= 101;
 }
+
