@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.ota.utils;
+package org.dosp.ota.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -39,11 +39,11 @@ import android.support.v4.app.NotificationCompat.Builder;
 import android.support.v4.app.TaskStackBuilder;
 import android.util.Log;
 
-import org.aospextended.ota.R;
-import org.aospextended.ota.RomUpdate;
-import org.aospextended.ota.activities.AvailableActivity;
-import org.aospextended.ota.activities.MainActivity;
-import org.aospextended.ota.receivers.AppReceiver;
+import org.dosp.ota.R;
+import org.dosp.ota.RomUpdate;
+import org.dosp.ota.activities.AvailableActivity;
+import org.dosp.ota.activities.MainActivity;
+import org.dosp.ota.receivers.AppReceiver;
 
 public class Utils implements Constants{
 
