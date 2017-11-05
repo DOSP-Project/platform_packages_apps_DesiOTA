@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.ota.activities;
+package org.dosp.ota.activities;
 
 import in.uncod.android.bypass.Bypass;
 import android.annotation.SuppressLint;
@@ -43,15 +43,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
-import org.aospextended.ota.R;
-import org.aospextended.ota.RomUpdate;
-import org.aospextended.ota.download.DownloadRom;
-import org.aospextended.ota.download.DownloadRomProgress;
-import org.aospextended.ota.tasks.GenerateRecoveryScript;
-import org.aospextended.ota.utils.Constants;
-import org.aospextended.ota.utils.Preferences;
-import org.aospextended.ota.utils.Tools;
-import org.aospextended.ota.utils.Utils;
+import org.dosp.ota.R;
+import org.dosp.ota.RomUpdate;
+import org.dosp.ota.download.DownloadRom;
+import org.dosp.ota.download.DownloadRomProgress;
+import org.dosp.ota.tasks.GenerateRecoveryScript;
+import org.dosp.ota.utils.Constants;
+import org.dosp.ota.utils.Preferences;
+import org.dosp.ota.utils.Tools;
+import org.dosp.ota.utils.Utils;
 
 public class AvailableActivity extends Activity implements Constants, android.view.View.OnClickListener {
 
